@@ -9,12 +9,14 @@ If you re-size the window using inspect mode, you will see that the app is not r
 # Challenge 2 (hard)
 
 The endpoint we are hitting for each container returns a list of pokemon. For each pokemon we receive an object with a name, and a url. For example:
+
 ```js
 {
     name: "charmander",
     url: "https://pokeapi.co/api/v2/pokemon/4"
 }
 ```
+
 When you hit that url, you will get an object with lots of info about that pokemon including sprites (small pixellated pictures).
 
 Your task is to create an image in the pokemon card that appears when your mouse hovers over the card. Here are some steps to help you:

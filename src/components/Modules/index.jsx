@@ -1,12 +1,13 @@
-import ModulesContainer from "../ModulesContainer"
+import ModulesContainer from "../ModulesContainer";
+import css from "../../styles/modulescontainer.module.css";
 
 const Modules = () => {
-    return (
-        <div>
-            <p>CSS Modules</p>
-            <ModulesContainer/>
-        </div>
-    )
-}
+  return (
+    <div className={css["navbar"]}>
+      <p className={css["title"]}>CSS Modules</p>
+      <ModulesContainer />
+    </div>
+  );
+};
 
-export default Modules
+export default Modules;

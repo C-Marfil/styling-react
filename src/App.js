@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import StyledComps from "./components/StyledComps";
 import NavBar from "./components/NavBar";
 import Traditional from "./components/Traditional";
 import Modules from "./components/Modules";
-import StyledComps from "./components/StyledComps";
 
 function App() {
   return (

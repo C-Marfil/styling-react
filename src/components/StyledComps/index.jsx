@@ -1,12 +1,12 @@
-import StyledContainer from "../StyledContainer"
+import StyledContainer from "../StyledContainer";
 
 const StyledComps = () => {
-    return (
-        <div>
-            <p>Styled Components</p>
-            <StyledContainer/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <p>Styled Components</p>
+      <StyledContainer />
+    </div>
+  );
+};
 
-export default StyledComps
+export default StyledComps;
